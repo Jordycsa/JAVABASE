@@ -20,6 +20,16 @@ public class CalculadoraSimple {
 
         scanner.close();
 
+
+
+        //division
+        if (b != 0) {
+    int division = a / b;
+    System.out.println("Division: " + division);
+} else {
+    System.out.println("Error: No se puede dividir entre 0.");
+}
+
         
     }
 }

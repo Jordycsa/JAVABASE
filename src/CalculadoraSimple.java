@@ -22,10 +22,7 @@ public class CalculadoraSimple {
         int multiplicacion = a * b;
         System.out.println("Multiplicación: " + multiplicacion);
 
-        scanner.close();
-
-
-
+     
         //division
         if (b != 0) {
     int division = a / b;
@@ -33,7 +30,7 @@ public class CalculadoraSimple {
 } else {
     System.out.println("Error: No se puede dividir entre 0.");
 }
-
+        scanner.close();
         
     }
 }

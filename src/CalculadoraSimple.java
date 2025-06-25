@@ -30,7 +30,7 @@ public class CalculadoraSimple {
 } else {
     System.out.println("Error: No se puede dividir entre 0.");
 }
-        scanner.close();
+    scanner.close();
         
     }
 }
